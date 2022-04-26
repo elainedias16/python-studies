@@ -1,17 +1,14 @@
 #Author: Elaine Dias Pires
 
-name = str(input('Type your name:\n'))
+name = str(input('Type your name:\n')).strip()
 
 print('\n')
 print(name.upper())
 print(name.lower())
 
 name_split = name.split()
+n = len(name_split)
 
-print('\nThe first name has {} letters ' .format(len(name_split[0])))
+print('\nYour first name is {} ' .format(name_split[0]))
+print('\nYour last name is {} ' .format(name_split[n-1]))
 
-qtd = 0
-for i in range (0, len(name_split)) :
-    qtd = qtd + len(name_split[i])
-
-print('This entire name has {} letters ' .format(qtd))
