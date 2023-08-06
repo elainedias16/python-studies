@@ -1,3 +1,3 @@
-# estudos_python
+# python-studies
 
-Repositório que contém os exercícios em python propostos pelo curso-em-vídeo.
+Repository that contains python exercises proposed by the video-course
